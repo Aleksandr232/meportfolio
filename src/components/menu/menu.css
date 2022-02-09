@@ -24,13 +24,7 @@
   /* The rest copied directly from react-burger-menu docs */
   
   /* Position and sizing of burger button */
-  .bm-burger-button {
-    position: fixed;
-    width: 36px;
-    height: 30px;
-    left: 1500px;
-    top: 36px;
-  }
+  
 
   
   
@@ -72,6 +66,16 @@
     background: rgba(0, 0, 0, 0.3);
   }
 
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 1500px;
+    top: 36px;
+  }
+
+
+
   
   svg{
     width: 20px;   
@@ -85,6 +89,12 @@
         height: 30px;
         left: 338px;
         top: 36px;
-      }
+    }
+
+    #list {
+      margin-top: 40px;
+      list-style-type: none;
+      padding-left: 35px;
+    }  
  }
  

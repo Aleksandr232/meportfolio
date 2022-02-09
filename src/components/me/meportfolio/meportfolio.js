@@ -26,8 +26,8 @@ export default class Meportfolio extends Component{
                 <Link to="/generatorapp"><img src={react}
                             width="248px" height="248px" alt=""/></Link></div>
                  <div className="workelem"><a href="https://github.com/Aleksandr232/add-employees.io"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
-                 <Link to="appfilter"><img src={myapp}
-                                width="248px" height="248px" alt=""/></Link></div>
+                 <a href='https://aleksandr232.github.io/add-employees.io/'><img src={myapp}
+                                width="248px" height="248px" alt=""/></a></div>
                 <div className="workelem"><a href="https://github.com/Aleksandr232/climbers"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
                 <a href="http://snowkzn.ru/"><img src={climbers}
                                 width="248px" height="248px" alt=""/></a></div>

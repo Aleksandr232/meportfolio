@@ -31,7 +31,7 @@
     .workelem .workm {
         position: absolute;
         top: 50%;
-        left: 25%;
+        left: 50%;
         transform: translate(24%, 100%);
         background-color: white;
         color: white;

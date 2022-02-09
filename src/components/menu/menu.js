@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 import './menu.css';
+
 
 
 
@@ -10,11 +12,11 @@ export default props => {
     
         <Menu  {...props}>
        <nav>
-                <ul class="menu__list">
-                    <li class="menu__link"><a href="#wr">ПРО МЕНЯ</a></li>
-                    <li class="menu__link"><a href="#container_resume">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link"><a href="#fra">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="#meportfolio">МОИ РАБОТЫ</a></li>
+                <ul class="menu__list" id="list" >
+                    <li class="menu__link"><Link to='/'>ДОМОЙ</Link></li>
+                    <li class="menu__link"><Link to='/resume' >МОЙ ОПЫТ</Link></li>
+                    <li class="menu__link"><Link to='/frameworks' >МОИ НАВЫКИ</Link></li>
+                    <li class="menu__link"><Link to='/meportfolio'>МОИ РАБОТЫ</Link></li>
                     <a href="resume/resume.gif"  className="resume_pdf"><button class="res_btn"><svg class='svg' aria-hidden="true" focusable="false"
                                 data-prefix="fas" data-icon="cloud-download-alt"
                                 class="svg-inline--fa fa-cloud-download-alt fa-w-20" role="img"
