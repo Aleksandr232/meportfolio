@@ -67,7 +67,7 @@
   }
 
   .bm-burger-button {
-    position: fixed;
+    position: absolute;
     width: 36px;
     height: 30px;
     left: 1500px;
@@ -84,7 +84,7 @@
 
  @media (max-width:575px) {
     .bm-burger-button {
-        position: fixed;
+        position:  absolute;
         width: 36px;
         height: 30px;
         left: 338px;
