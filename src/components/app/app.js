@@ -12,7 +12,7 @@ import About from '../me/about/about';
 import Resume from '../me/resume/resume';
 import Frameworks from '../me/frameworks/frameworks';
 import Meportfolio from '../me/meportfolio/meportfolio';
-import GeneratorApp from '../generatornumber/App';
+
 
 
 
@@ -30,12 +30,6 @@ export default class App extends Component{
           <Route path="/resume" element={<Resume/>}></Route>
           <Route path="/frameworks" element={<Frameworks/>}></Route>
           <Route path="/meportfolio" element={<Meportfolio/>}></Route>
-          <Route path="/generatorapp" element={<GeneratorApp/>}></Route>
-          
-
-          
-          
-          
         </Routes>
       </div>
     </Router>

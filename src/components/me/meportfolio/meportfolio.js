@@ -23,8 +23,8 @@ export default class Meportfolio extends Component{
                             src="https://im.kommersant.ru/Issues.photo/LifeStyle_Online/2019/06/27/KMO_120232_20616_1_t218_153158.jpg"
                             width="248px" height="248px" alt=""/></a></div>
                 <div className="workelem"><a href="https://github.com/Aleksandr232/number.io"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
-                <Link to="/generatorapp"><img src={react}
-                            width="248px" height="248px" alt=""/></Link></div>
+                <a href='https://number-io.vercel.app/'><img src={react}
+                            width="248px" height="248px" alt=""/></a></div>
                  <div className="workelem"><a href="https://github.com/Aleksandr232/add-employees.io"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
                  <a href='https://aleksandr232.github.io/add-employees.io/'><img src={myapp}
                                 width="248px" height="248px" alt=""/></a></div>
