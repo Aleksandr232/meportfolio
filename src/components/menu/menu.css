@@ -84,10 +84,10 @@
 
  @media (max-width:575px) {
     .bm-burger-button {
-        position:  absolute;
+        position: absolute;
         width: 36px;
         height: 30px;
-        left: 338px;
+        left: 80%;
         top: 36px;
     }
 
