@@ -1,0 +1,674 @@
+.rowing {
+    background: url("https://im.kommersant.ru/Issues.photo/LifeStyle_Online/2019/06/27/KMO_120232_20616_1_t218_153158.jpg") center center/cover no-repeat;
+}
+
+.container_text {
+    width: 1140px;
+    min-height: 750px;
+    margin: 0 auto;
+    background-color: gray;
+    font-weight: 600;
+    opacity: 0.9
+}
+
+#time {
+    float: right;
+    font-size: 35px;
+    border: 0px
+}
+
+.photo {
+    background-color: black
+}
+
+.photo_rowing {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.video {
+    background: url("https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1371x603:1373x601)/origin-imgresizer.eurosport.com/2016/08/13/1910934-40214441-2560-1440.jpg") center center/cover no-repeat
+}
+
+.team{
+    background:url('https://phototass3.cdnvideo.ru/width/1200_4ce85301/tass/m2/uploads/i/20210729/6260121.jpg')center center/cover no-repeat ;
+}
+
+.container_tatr{
+    min-height: 1260px;
+    background-color: white;
+    font-weight: 600;
+    opacity: 0.9;
+    margin: -88px auto 0px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 229px);
+    grid-template-rows: repeat(3, 260px);
+    grid-auto-rows: 250px;
+    gap: 157px;
+}
+
+.img_sport{
+    width: 100%;
+}
+
+.name_sportsmen{
+    color:black;
+    text-decoration: none;
+}
+
+.name_sportsmen:hover{
+    content:'';
+    color:red;
+    transition: 0.3s all;
+
+}
+
+.btn {
+    margin-right: 1400px;
+    margin-bottom: 50px
+}
+
+h1,
+h2,
+ul,
+li {
+    padding-top: 10px;
+    font-weight: 700
+}
+
+.dropdown-item {
+    text-align: center
+}
+
+.dropdown-menu.show {
+    opacity: 0.8
+}
+
+.bg-light {
+    --bs-bg-opacity: 0.8
+}
+
+.concept_b {
+    background-color: gray
+}
+
+.concept_container {
+    width: 1140px;
+    min-height: 900px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+table {
+    text-align: left;
+    width: 100%;
+    caption-side: top;
+    color: black;
+}
+
+th {
+    padding: 5px;
+}
+
+caption {
+    color: black;
+}
+
+footer {
+    padding: 14px 23px 0px 23px;
+}
+
+.footer_mobile{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 1px;
+    width: 32.75px;
+    height: 29px;
+    border-radius: 100%;
+    background-color:#fff;      
+}
+
+.footer_mobile:hover{
+    content:'';
+    transform: translateY(-10px);
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.footer_divider {
+    width: 299px;
+    height: 4px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.footer_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-top: 32px;
+}
+
+.footer_wrapper>div {
+    width: 33%;
+}
+
+.footer_wrapper>div:nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.footer_social {
+    width: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer_social_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 1px;
+    width: 33px;
+    height: 29px;
+    border-radius: 100%;
+    background-color:#fff;
+}
+
+.footer_social_item i {
+    color: black;
+}
+
+.footer_links {
+    width: 390px;
+    margin: 0 auto;
+}
+
+.footer_links_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+@keyframes ani {
+    from {
+        transform: rotate(1turn);
+    }
+    to{
+        transform: rotate(-1turn);
+    }
+}
+
+@-webkit-keyframes ani {
+    from {
+        transform: rotate(1turn)
+    }
+
+    to {
+        transform: rotate(-1turn)
+    }
+}
+
+
+
+.footer_social_item_ani:hover {
+    content:'';
+    transform: translateY(-10px);
+}
+    
+
+
+.footer_links_main a {
+    color: gray;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.footer_links_main a:hover{
+    content: '';
+    transform: translateX(5px);
+    color: black;
+    background-color:white;
+    
+    
+}
+
+.footer_links_sub {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer_links_sub a {
+    color: black;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.footer_links_lang {
+    display: block;
+    margin: 0 auto;
+    color: gray;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 19px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+      
+
+.container_calculating {
+    padding: 50px 0;
+    
+}
+
+.title {
+    text-align: center;
+}
+
+.calculating__field {
+    width: 100%;
+    margin-top: 50px;
+    background: url("https://fitseven.ru/wp-content/uploads/2019/06/norma-kaloriy-v-den.jpg")center center/cover no-repeat;
+    padding: 30px 0 40px 0;
+}
+
+.calculating__subtitle {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    background-color:#54ed39;
+    width: 150px;
+    text-align: center;
+    
+}
+
+.calculating__subtitle:first-child {
+    margin-top: 0;
+}
+
+.calculating #gender:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 16px;
+    height: 16px;
+    
+}
+
+.calculating__choose {
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.calculating__choose-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 50px;
+    padding: 0 10px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    outline: 0;
+    transition: .3s all;
+}
+
+.calculating__choose-item_active {
+    color: #fff;
+    background-color: #54ed39;
+}
+
+.calculating__choose_medium {
+    width: 743px;
+    justify-content: space-between;
+    margin: 30px auto 0 auto;
+}
+
+.calculating__choose_big {
+    width: 930px;
+    justify-content: space-between;
+    margin: 30px auto 0 auto;
+}
+
+.calculating__choose_big .calculating__choose-item {
+    width: 200px;
+}
+
+.calculating__divider {
+    width: 490px;
+    height: 1px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.calculating__total {
+    width: 490px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calculating__result {
+    font-size: 18px;
+    font-weight: 700;
+    background-color:red;
+}
+
+.calculating__result span {
+    font-size: 42px;
+}
+
+
+@media (max-width: 850px){
+    .rowing{
+        background: url("https://im.kommersant.ru/Issues.photo/LifeStyle_Online/2019/06/27/KMO_120232_20616_1_t218_153158.jpg")  center center/cover no-repeat;
+        overflow-x:hidden;
+    }
+    
+    html {
+        overflow-x: hidden;
+      }
+    
+    body{
+        overflow-x:hidden;
+    }
+    
+    .navbar {
+        width: 100%;
+    }    
+    .container_text{
+        position: relative;
+        width: 100%;
+        min-height: 450px;
+        font-size: 12px;
+        opacity: 0.8;
+        
+    }    
+    
+    .bg-light {
+        --bs-bg-opacity: 0.6;
+        width:100%;
+    }
+    
+    h1{
+        font-size: 19px;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 15px;
+    }
+    
+    
+    .concept_container{
+        width:100%
+    }
+    
+    th{
+        padding: -30px;
+    }
+    table{
+        font-size: 10px;
+    }
+
+    .footer_links_main{
+        margin: -30px -13px 0px -140px;
+    }
+
+    .footer_divider{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .footer_links_sub{
+        margin: 12px 69px 0px -60px;
+    }   
+
+    .footer_social{
+        width: 139px;
+        margin: 50px -28px;
+    }  
+    
+    .footer_mobile{
+        margin: 48px -20px ;
+    }    
+
+    .footer_links_lang{
+        margin: 80px -163px 0px -284px;
+        font-size: 8px;
+    }  
+    
+    .calculating__field {
+        width: 100%;
+        margin-top: 50px;
+        background: url("https://fitseven.ru/wp-content/uploads/2019/06/norma-kaloriy-v-den.jpg")center center/cover no-repeat;
+        padding: 30px 0 40px 0;
+    }
+
+    .calculating__choose_medium{
+        width: 100%;
+    }
+
+    .calculating__choose_big{
+        width: 100%;
+    }
+
+    .calculating__total{
+        width: 100%;
+
+    }
+    .container_tatr{
+        min-height: 2100px;
+        display: grid;
+        grid-template-columns: repeat(2, 229px);
+    }
+}
+
+@media (max-width: 575px) {
+
+
+.rowing{
+    background: url("https://im.kommersant.ru/Issues.photo/LifeStyle_Online/2019/06/27/KMO_120232_20616_1_t218_153158.jpg")  center center/cover no-repeat;
+    overflow-x:hidden;
+}
+
+html {
+    overflow-x: hidden;
+  }
+
+body{
+    overflow-x:hidden;
+}
+
+.navbar {
+    width: 100%;
+}    
+.container_text{
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    font-size: 12px;
+    opacity: 0.8;
+    background-color:#607b8b;
+}    
+
+.bg-light {
+    --bs-bg-opacity: 0.6;
+}
+
+h1{
+    font-size: 19px;
+    font-weight: 700;
+}
+h2{
+    font-size: 15px;
+}
+.footer_divider{
+    width: 175px;
+    height: 4px;
+}
+.footer_links_main a {
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer_links_main {
+    margin: 10px 159px 0px -140px;
+}
+.footer_links_sub a{
+    font-size: 9px;
+    font-weight: 300;
+}
+.footer_links_sub{
+    margin: 23px 203px 0px -106px;
+    
+}
+.footer_social{
+    width: 139px;
+    margin: 80px -28px;
+}
+.footer_mobile{
+    margin: 80px -20px ;
+
+}
+.footer_links_lang{
+    margin: 100px 0px 0px -284px;
+    font-size: 8px;
+}
+
+.photo {
+    background-color: black;
+    margin-top: 230px;
+}
+.concept_container{
+    width:100%
+}
+
+th{
+    padding: -30px;
+}
+table{
+    font-size: 10px;
+}
+
+.calculating__field {
+    width: 100%;
+    margin-top: 50px;
+    background: url("https://fitseven.ru/wp-content/uploads/2019/06/norma-kaloriy-v-den.jpg")center center/cover no-repeat;   
+}
+
+.calculating__choose_medium{
+    width: 100%;
+}
+
+.calculating__choose_big{
+    width: 100%;
+}
+
+.calculating__total{
+    width: 100%;
+
+}
+
+.title{
+    font-size: 12px;
+}
+
+.calculating__subtitle{
+    font-size: 13px;
+}
+
+.calculating__result{
+    font-size: 9px;
+}
+
+#gender{
+    width: 100%;
+}
+
+.calculating__choose-item{
+font-size: 9px;
+width: 100%;
+}
+
+.container_tatr{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.btn-outline-primary{
+    z-index: 100;
+    position: absolute;
+    background-color:blue;
+    color: white;
+}
+    
+
+    
+    
+
+}
+
+
+
+
+/*# sourceMappingURL=style.min.css.map * /

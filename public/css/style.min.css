@@ -1,0 +1,324 @@
+
+
+* {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto
+}
+
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url(https://st3.depositphotos.com/1006362/12625/i/600/depositphotos_126254668-stock-photo-garibaldi-lake-in-canada.jpg) no-repeat 50%/cover;
+    padding-top: 205px
+}
+
+.promo_text {
+    width: 245px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000
+}
+
+.btn {
+    width: 135px;
+    height: 45px;
+    background-color: #ffa501;
+    color: #000;
+    margin: 25px;
+    border-radius: 10px
+}
+
+.btn:hover {
+    content: '';
+    transform: translate(10px)
+}
+
+.me {
+    color: #000;
+    text-decoration: none
+}
+
+.me:hover {
+    content: '';
+    color: #ffa501
+}
+
+
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000
+}
+
+.title_fz14 {
+    font-size: 14px;
+    line-height: 21px
+}
+
+.title_fz16 {
+    font-size: 16px;
+    line-height: 24px
+}
+
+.title_fz20 {
+    font-size: 20px;
+    line-height: 30px
+}
+
+.title_fz36 {
+    font-size: 36px
+}
+
+.title_fz48 {
+    font-size: 48px
+}
+
+
+
+.hamburger {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer
+}
+
+.hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #151812
+}
+
+.hamburger span.long {
+    width: 36px
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: .6s all
+}
+
+.menu.active {
+    left: 0;
+    visibility: visible;
+    opacity: 1
+}
+
+.menu__block {
+    position: relative;
+    width: 345px;
+    background-color: #ffa501;
+    height: 100%;
+    padding-top: 140px;
+    padding-left: 40px;
+    transition: .6 all;
+    z-index: 10
+}
+
+.menu__close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer
+}
+
+.menu__close:hover {
+    content: '';
+    transform: rotate(-90deg);
+    transition: .6s all
+}
+
+.menu__list {
+    list-style-type: none;
+    padding-left: 35px
+}
+
+.menu__link {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 15px
+}
+
+.menu__link:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1px solid #000;
+    margin: 12px 40px
+}
+
+.menu__link:hover::before {
+    background-color: #fff
+}
+
+.menu__link a {
+    color: #fff;
+    text-decoration: none
+}
+
+.menu__social {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.menu__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: .75
+}
+
+.gif {
+    height: 20px;
+    width: 19px;
+    border-radius: 100%;
+    background-color: #fff
+}
+
+.resume_pdf{
+   width: 20px;
+   
+}
+.res_btn{
+    width: 135px;
+    height: 45px;
+    background-color: #ffd000;
+    color: #000;
+    margin: 0px auto;
+    border-radius: 10px
+}
+
+.res_btn:hover{
+    content:'';
+    background-color: white;
+    transform: translateX(5px);
+    transition: 0.7s all;
+}
+
+
+
+  
+
+@media (max-width:870px) {
+    .hamburger:hover {
+        transform: rotate(9deg)
+    }
+
+    html {
+        overflow-x: hidden
+    }
+
+    body {
+        overflow-x: hidden
+    }
+
+    #promo {
+        width: 100%
+    }
+
+    #wr {
+        display: grid;
+        grid-template-columns: 252px 430px;
+        grid-template-rows: 231px minmax(15px, auto) minmax(245px, auto);
+        grid-auto-rows: minmax(245px, auto);
+        -moz-column-gap: 5px;
+        column-gap: 5px;
+        row-gap: 20px
+    }
+
+    
+
+    .menu__block {
+        height: 317px;
+        padding-top: 27px
+    }
+
+}
+
+@media (max-width:575px) {
+    .hamburger:hover {
+        transform: rotate(9deg)
+    }
+
+    html {
+        overflow-x: hidden
+    }
+
+    body {
+        overflow-x: hidden
+    }
+
+    .promo {
+        width: 100%
+    }
+
+    .title_fz16 {
+        font-size: 14px
+    }
+
+    .title_fz48 {
+        font-size: 30px;
+        line-height: 45px
+    }
+
+    
+
+    .menu__block {
+        width: 80%;
+        height: 500px
+    }
+
+    
+
+    #wr {
+        display: block
+    }
+
+    
+
+    .title_fz36 {
+        font-size: 25px
+    }
+
+    
+}
+
+
+
