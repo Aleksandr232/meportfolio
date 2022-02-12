@@ -74,6 +74,14 @@
     top: 36px;
   }
 
+  .phone:hover{
+   content:'';
+   transform: translateX(10px);
+   color: black;
+   transition: 0.2 all;
+   cursor: pointer;
+    
+  }
 
 
   

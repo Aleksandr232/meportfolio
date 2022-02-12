@@ -1,13 +1,39 @@
 import React, {Component} from 'react';
-import main_photo from './main_photo.jpg'
-
+import Carousel from 'react-bootstrap/Carousel'
+import main_photo from './main_photo.jpg';
+import rowing from './rowing.jpeg';
+import row from './row.jpeg';
+ 
 export default class About extends Component{
     render(){
         return(
             <section className="about">
         <div className="container">
-            <div id="wr" className="about__wrapper"><img src={main_photo} alt="" className="about__photo" id="abp"/>
-                <div className="about__descr">
+            <div id="wr" className="about__wrapper">
+            <Carousel>
+  <Carousel.Item interval={1000}>
+    <img
+      className="about__photo" id="abp"
+      src={main_photo}
+      alt="First slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item interval={500}>
+    <img
+      className="about__photo" id="abp"
+      src={rowing}
+      alt="Second slide"
+    />
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="about__photo" id="abp"
+      src={row}
+      alt="Third slide"
+    />
+  </Carousel.Item>
+</Carousel>
+<div className="about__descr">
                     <h2 className="title title_fz16 about__title circle">Про меня</h2>
                     <div className="title title_fz36 about__subtitle">Меня зовут Александр</div>
                     <div className="diviader"><span></span></div>
@@ -15,18 +41,12 @@ export default class About extends Component{
                         <p></p>
                     </div>
                 </div>
-                <div id="skil" className="about__skills">
+<div id="skil" className="about__skills">
                     <div className="about__item">
-                        <div><img className="web"
-                                src="https://img.icons8.com/external-photo3ideastudio-lineal-color-photo3ideastudio/29/000000/external-web-coding-online-business-photo3ideastudio-lineal-color-photo3ideastudio.png"/>
+                        <div>
                         </div>
                         <div>
-                            <div className="title title_fz14">Web-разработка</div>
-                            <div className="diviader"><span></span></div>
-                            <div id="skiltext" className="about__skills-text">Это процедура создания WEB-приложения или
-                                WEB-сайта. Основными этапами этого процесса являются такие мероприятия, как WEB-дизайн,
-                                вёрстка страниц сайта, WEB-программирование на стороне сервера и клиента, а также работы
-                                по конфигурированию WEB-сервера.</div>
+                            
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
+
+
+
 import './menu.css';
 
 
@@ -30,7 +33,8 @@ export default props => {
                                     16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z">
                                 </path>
                             </svg>Resume</button></a>
-                </ul>
+                </ul>  
+                   
             </nav>
     </Menu>
    
