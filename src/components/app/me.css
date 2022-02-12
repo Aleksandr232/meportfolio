@@ -583,7 +583,7 @@
     
  
      .about {
-         margin: -73px 0
+         margin: -73px -15px;
      }
  
      #wr {
@@ -699,6 +699,8 @@
     .carousel-indicators {
         display:none;
     }
+
+    
  }
  
  .about {

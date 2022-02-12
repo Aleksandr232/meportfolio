@@ -8,7 +8,7 @@ export default class About extends Component{
     render(){
         return(
             <section className="about">
-        <div className="container">
+        <div className="container" id='about_container'>
             <div id="wr" className="about__wrapper">
             <Carousel>
   <Carousel.Item interval={1000}>
