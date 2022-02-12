@@ -650,7 +650,7 @@
          display: grid;
          grid-template-columns: repeat(1, 270px);
          row-gap: 18px;
-         margin: 10px 75px
+         margin: 10px 70px
      }
  
      .workelem {
