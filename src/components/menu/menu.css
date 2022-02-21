@@ -83,6 +83,14 @@
     
   }
 
+  .whatsaap_telegram_github{
+    display: grid;
+    grid-template-columns: repeat(3, 31px);
+    justify-content: center;
+    margin: 400px 0px;
+
+  }
+
 
   
   svg{
@@ -104,5 +112,14 @@
       list-style-type: none;
       padding-left: 35px;
     }  
+
+    .whatsaap_telegram_github{
+      display: grid;
+      grid-template-columns: repeat(3, 31px);
+      justify-content: center;
+      margin: 250px 0px;
+  
+    }
+  
  }
  
