@@ -5,7 +5,8 @@ import climbers from './climbers.png';
 import calc from './calc.png';
 import coffe from './coffe.png';
 import grev from './grev.png';
-import weather from './weather.jpg'
+import weather from './weather.jpg';
+import industrial from './industrial.jpg';
 import './meportfolio.css';
 
 
@@ -44,7 +45,7 @@ export default class Meportfolio extends Component{
                 <a href="https://weather-ebon-eight.vercel.app/"><img src={weather}
                                 width="248px" height="248px" alt=""/></a></div>
                 <div className="workelem"><a href="https://github.com/Aleksandr232/industrial"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
-                <a href="https://industrial-three.vercel.app/"><img src={weather}
+                <a href="https://industrial-three.vercel.app/"><img src={industrial}
                                 width="248px" height="248px" alt=""/></a></div>
             </div>
         </div>
