@@ -610,7 +610,13 @@
  
      .about__photo {
          width: 35%;
-         height: 35%
+         height: 35%;
+         
+         
+     }
+
+     #abp{
+        border-radius: initial;
      }
  
      p {
