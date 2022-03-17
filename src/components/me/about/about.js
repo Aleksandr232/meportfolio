@@ -38,7 +38,15 @@ export default class About extends Component{
                     <div className="title title_fz36 about__subtitle">Меня зовут Александр</div>
                     <div className="diviader"><span></span></div>
                     <div className="about__text" id="text">
-                        <p></p>
+                          Всем привет! <img src="https://img.icons8.com/emoji/48/000000/waving-hand-emoji.png"/><br/>
+                          Меня зовут Александр!<br/>
+                          Я начинающий фронтенд разработчик!
+                          Совсем недавно, я даже незнал что такое <code>HTML</code><br/>
+                          Но, было огромное желание погрузиться в эту реальность...<br/>
+                          С юного возроста я занимаюсь греблей<img src="https://camo.githubusercontent.com/6d0c79b3a93b85a866baaa55d67805da162eab40cfe04b4f8f30e54ef2f484b8/68747470733a2f2f696d672e69636f6e73382e636f6d2f696f732f32302f3030303030302f726f77696e672d322d2d76322e676966" width={20}/>. 
+                          Это очень красивый вид спорта, который воспитывает тебя не только предылевать усталость мышечнных волкон, но и волю.<br/> 
+                         Гребля это не только красивый вид спорта, но и очень комадный вид спорта. Вы просто представьте, когда 9 человек гребут в одной лодке к своей мечте! Завораживающе! Не правда ли?
+
                     </div>
                 </div>
 <div id="skil" className="about__skills">

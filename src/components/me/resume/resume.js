@@ -42,6 +42,11 @@ export default class Resume extends Component {
                                         Web-разработке</a></div>
                                     <div className="resume__item-local"><a href="curs/curs javascript.pdf" download>
                                         Практический Javascript</a></div>
+                                    <div className="resume__item-local"><a href="curs/curs javascript.pdf" download>
+                                        Javascript + React</a></div>  
+                                    <div className="resume__item-local"><a href="curs/curs javascript.pdf" download>
+                                        React+Redux</a></div>    
+                                     
                                 </div>
                                 <div className="resume__item-body"></div>
                             </div>

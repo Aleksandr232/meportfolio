@@ -552,6 +552,7 @@
          grid-template: 45px 190px 45px/repeat(2, 200px);
          width: 10px
      }
+     
  }
  
  @media (max-width:575px) {
@@ -706,6 +707,12 @@
         display:none;
     }
 
+    #text{
+        width: 350px;
+    }
+
+    
+
     
  }
  
@@ -743,8 +750,9 @@
  
  .about__text {
      margin: 10px;
-     min-width: 500px;
-     font-weight: 500;
+    width: 500px;
+    font-style: italic;
+     font-weight: 700;
      font-size: 14px;
      line-height: 21px;
      color: #000
