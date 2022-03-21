@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import main_photo from './main_photo.jpg';
 import rowing from './rowing.jpeg';
 import row from './row.jpeg';
+import Music from '../music/music';
  
 export default class About extends Component{
     render(){
@@ -34,6 +35,7 @@ export default class About extends Component{
   </Carousel.Item>
 </Carousel>
 <div className="about__descr">
+  <div><Music/></div>
                     <h2 className="title title_fz16 about__title circle">Про меня</h2>
                     <div className="title title_fz36 about__subtitle">Меня зовут Александр</div>
                     <div className="diviader"><span></span></div>

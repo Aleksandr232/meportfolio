@@ -14,6 +14,7 @@ import About from '../me/about/about';
 import Resume from '../me/resume/resume';
 import Frameworks from '../me/frameworks/frameworks';
 import Meportfolio from '../me/meportfolio/meportfolio';
+import Music from '../me/music/music';
 
 
 

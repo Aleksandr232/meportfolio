@@ -466,6 +466,11 @@
      transform: translateX(5px)
  }
  
+ audio{
+     width: 150px;
+     margin: -164px 234px;
+ }
+
  
  
  .gif {
