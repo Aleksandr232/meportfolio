@@ -64,6 +64,7 @@
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
+    
   }
 
   .bm-burger-button {
@@ -90,6 +91,9 @@
     margin: 400px 0px;
 
   }
+
+  
+
 
 
   
@@ -120,6 +124,8 @@
       margin: 250px 0px;
   
     }
+
+   
   
  }
  

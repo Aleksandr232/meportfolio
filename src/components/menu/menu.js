@@ -8,7 +8,7 @@ export default (props) => {
   return (
     // Pass on our props
 
-    <Menu {...props}>
+    <Menu  {...props}>
       <nav>
         <ul class="menu__list" id="list">
           <li class="menu__link">
