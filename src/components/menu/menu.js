@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 
-import "./menu.css";
+import "./menu.scss";
 
 export default (props) => {
   return (
