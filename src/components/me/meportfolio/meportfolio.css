@@ -27,6 +27,39 @@
     transition: .6S all;
 }
 
+.workelem .wor{
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translate(24%, 100%);
+    background-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.workelem .wor_1{
+    position: absolute;
+    top: 50%;
+    right: -60%;
+    transform: translate(24%, 100%);
+    background-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+
+
+
 @media(max-width: 575px){
     .workelem .workm {
         position: absolute;
@@ -43,5 +76,20 @@
         
 
     } 
+
+    .workelem .wor_1{
+        position: absolute;
+        top: 50%;
+        right: -66%;
+        transform: translate(24%, 100%);
+        background-color: white;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    }
    
 }
