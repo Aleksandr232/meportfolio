@@ -52,7 +52,7 @@ export default class Meportfolio extends Component{
                 <a href="https://industrial-three.vercel.app/"><img src={industrial}
                                 width="248px" height="248px" alt=""/></a></div>
                 <div className="workelem"><a href="https://github.com/Aleksandr232/weatherandroid"><button className='wor_1'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
-                    <a href='calc.png' download><button  className='wor'><img src="https://img.icons8.com/ios-glyphs/452/download--v2.gif" style={{width:'30px' }}/></button></a>
+                    <a  href='download/weather.zip' download><button  className='wor'><img src="https://img.icons8.com/ios-glyphs/452/download--v2.gif" style={{width:'30px' }}/></button></a>
                         <img src={androidw} width="248px" height="248px" alt=""/></div>
                 <div className="workelem"><a href="https://github.com/Aleksandr232/meportfolio"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
                     <a href="https://meportfolio.vercel.app/"><img src={meportolio}
