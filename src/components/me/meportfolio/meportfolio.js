@@ -18,7 +18,7 @@ export default class Meportfolio extends Component{
         return(
             <section className="meportfolio" id="meportfolio">
         <h2 className="title title_fz16 resume__title circle">Портфолио</h2>
-        <div className="title title_fz36 resume__subtitle" id="frameworks__sub">Мои работы</div>
+        <div className="title title_fz36 resume__subtitle" id="frameworks__sub">Веб-приложения</div>
         <div className="diviader diviader_resume"><span></span></div>
         <div className="container">
             <div className="work__me" id="work__me">
