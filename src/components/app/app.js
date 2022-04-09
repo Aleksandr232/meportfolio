@@ -14,7 +14,7 @@ import About from '../me/about/about';
 import Resume from '../me/resume/resume';
 import Frameworks from '../me/frameworks/frameworks';
 import Meportfolio from '../me/meportfolio/meportfolio';
-
+import Androidapp from '../me/androidapp';
 
 
 
@@ -34,6 +34,7 @@ export default class App extends Component{
           <Route path="/resume" element={<Resume/>}></Route>
           <Route path="/frameworks" element={<Frameworks/>}></Route>
           <Route path="/meportfolio" element={<Meportfolio/>}></Route>
+          <Route path="/app" element={<Androidapp/>}></Route>
         </Routes>
       </div>
     </Router>

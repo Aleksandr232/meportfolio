@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
+import AdbOutlinedIcon from '@mui/icons-material/AdbOutlined';
 
 import "./menu.scss";
 
@@ -21,7 +22,10 @@ export default (props) => {
             <Link to="/frameworks">МОИ НАВЫКИ</Link>
           </li>
           <li class="menu__link">
-            <Link to="/meportfolio">МОИ РАБОТЫ</Link>
+            <Link to="/meportfolio">ВЕБ-ПРИЛОЖЕНИЯ</Link>
+          </li>
+          <li class="menu__link">
+            <Link to="/app"> <AdbOutlinedIcon/>- ПРИЛОЖЕНИЯ</Link>
           </li>
           <a href="resume/resume.gif" className="resume_pdf">
             <button class="res_btn">
@@ -44,7 +48,7 @@ export default (props) => {
                                     0-61.9-44-113.6-102.4-125.4zm-132.9 88.7L299.3 420.7c-6.2 6.2-16.4 6.2-22.6 0L171.3
                                     315.3c-10.1-10.1-2.9-27.3 11.3-27.3H248V176c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16
                                     16v112h65.4c14.2 0 21.4 17.2 11.3 27.3z"
-                ></path>
+              ></path>
               </svg>
               Resume
             </button>
