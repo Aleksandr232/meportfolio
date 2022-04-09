@@ -17,10 +17,10 @@ export default class Meportfolio extends Component{
         <div className="container">
             <div className="work__me" id="work__me">
             <div className="workelem"><a href="https://github.com/Aleksandr232/weatherandroid"><button className='wor_1'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
-                    <a  href='download/weather.zip' download><button  className='wor'><img src="https://img.icons8.com/ios-glyphs/452/download--v2.gif" style={{width:'30px' }}/></button></a>
+                    <a  href='https://disk.yandex.ru/d/2Q6ggwpdBKhmKw'><button  className='wor'><img src="https://img.icons8.com/ios-glyphs/452/download--v2.gif" style={{width:'30px' }}/></button></a>
                         <img src={androidw} width="248px" height="248px" alt=""/></div>
             <div className="workelem"><a href="https://github.com/Aleksandr232/portfolioapp"><button className='wor_1'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
-                    <a  href='download/weather.zip' download><button  className='wor'><img src="https://img.icons8.com/ios-glyphs/452/download--v2.gif" style={{width:'30px' }}/></button></a>
+                    <a  href='https://disk.yandex.ru/d/XF67BdvTE42Ltw'><button  className='wor'><img src="https://img.icons8.com/ios-glyphs/452/download--v2.gif" style={{width:'30px' }}/></button></a>
                         <img src={appandr} width="248px" height="248px" alt=""/></div>
             </div>
         </div>
