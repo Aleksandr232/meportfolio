@@ -7,5 +7,5 @@
 
  Сайт размещен на **vercel.com** [Главная страница](https://meportfolio.vercel.app/)
 
- - **Desktop** ![**Desktop**](./desktop.png)
- - **Mobile** ![**mobile**](./mobile.png)
+  **Full Screen** ![**Desktop**](./desktop.png)
+  **Mobile Screen** ![**mobile**](./mobile.png)
