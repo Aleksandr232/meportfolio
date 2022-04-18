@@ -44,9 +44,6 @@ export default class Meportfolio extends Component{
                 <div className="workelem"><a href="https://github.com/Aleksandr232/grovemade"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
                 <a href="https://grovemade.vercel.app/"><img src={grev}
                                 width="248px" height="248px" alt=""/></a></div>
-                <div className="workelem"><a href="https://github.com/Aleksandr232/weather"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
-                <a href="https://weather-ebon-eight.vercel.app/"><img src={weather}
-                                width="248px" height="248px" alt=""/></a></div>
                 <div className="workelem"><a href="https://github.com/Aleksandr232/industrial"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
                 <a href="https://industrial-three.vercel.app/"><img src={industrial}
                                 width="248px" height="248px" alt=""/></a></div>
