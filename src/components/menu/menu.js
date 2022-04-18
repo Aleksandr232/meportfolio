@@ -27,7 +27,7 @@ export default (props) => {
           <li class="menu__link">
             <Link to="/app"> <AdbOutlinedIcon/>- ПРИЛОЖЕНИЯ</Link>
           </li>
-          <a href="" className="resume_pdf">
+          <a href="https://github.com/Aleksandr232/resume"  className="resume_pdf">
             <button class="res_btn">
               <svg
                 class="svg"
