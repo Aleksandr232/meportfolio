@@ -19,9 +19,9 @@ export default function Photo () {
   };
 
   return (
-    <div className="me">
-      <Gallery photos={me} onClick={openLightbox} />
-      <ModalGateway>
+    <div >
+      <Gallery className="me" photos={me} onClick={openLightbox} />
+      <ModalGateway >
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
