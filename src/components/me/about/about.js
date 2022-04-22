@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import Carousel from 'react-bootstrap/Carousel'
-import main_photo from './main_photo.jpg';
+/* import Carousel from 'react-bootstrap/Carousel' */
+/* import main_photo from './main_photo.jpg';
 import rowing from './rowing.jpeg';
-import row from './row.jpeg';
+import row from './row.jpeg'; */
 import Music from '../music/music';
+import Photo from '../../photo/Photo';
  
 export default class About extends Component{
     render(){
@@ -11,29 +12,7 @@ export default class About extends Component{
             <section className="about">
         <div className="container" id='about_container'>
             <div id="wr" className="about__wrapper">
-            <Carousel>
-  <Carousel.Item interval={1000}>
-    <img
-      className="about__photo" id="abp"
-      src={main_photo}
-      alt="First slide"
-    />
-  </Carousel.Item>
-  <Carousel.Item interval={500}>
-    <img
-      className="about__photo" id="abp"
-      src={rowing}
-      alt="Second slide"
-    />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="about__photo" id="abp"
-      src={row}
-      alt="Third slide"
-    />
-  </Carousel.Item>
-</Carousel>
+            <Photo/>
 <div className="about__descr">
   <div><Music/></div>
                     <h2 className="title title_fz16 about__title circle">Про меня</h2>
