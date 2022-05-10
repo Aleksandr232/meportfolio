@@ -5,9 +5,9 @@ import climbers from './climbers.png';
 import calc from './calc.png';
 import coffe from './coffe.png';
 import grev from './grev.png';
-import weather from './weather.jpg';
 import industrial from './industrial.jpg';
 import meportolio from './meprtfolio.png'
+import testreact from './testreact.png'
 import './meportfolio.css';
 
 
@@ -49,6 +49,9 @@ export default class Meportfolio extends Component{
                                 width="248px" height="248px" alt=""/></a></div>
                 <div className="workelem"><a href="https://github.com/Aleksandr232/meportfolio"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
                     <a href="https://meportfolio.vercel.app/"><img src={meportolio}
+                                width="248px" height="248px" alt=""/></a></div>
+                <div className="workelem"><a href="https://github.com/Aleksandr232/testreact"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
+                    <a href="https://testreact-cyan.vercel.app/"><img src={testreact}
                                 width="248px" height="248px" alt=""/></a></div>
             </div>
         </div>
