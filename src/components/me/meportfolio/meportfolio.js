@@ -10,6 +10,7 @@ import meportolio from './meprtfolio.png'
 import testreact from './testreact.png'
 import vue from './vue.png'
 import game from './game.png'
+import reacttest from './react-test2.png'
 import './meportfolio.css';
 
 
@@ -60,6 +61,9 @@ export default class Meportfolio extends Component{
                                 width="248px" height="248px" alt=""/></a></div>
                 <div className="workelem"><a href="https://github.com/Aleksandr232/react-cart"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
                     <a href="https://react-cart-kappa.vercel.app/"><img src={game}
+                                width="248px" height="248px" alt=""/></a></div>
+                <div className="workelem"><a href="https://github.com/Aleksandr232/testreact2"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
+                    <a href="https://testreact2.vercel.app/"><img src={reacttest}
                                 width="248px" height="248px" alt=""/></a></div>
             </div>
         </div>
