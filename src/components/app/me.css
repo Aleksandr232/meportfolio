@@ -760,9 +760,21 @@
      font-weight: 700;
      font-size: 14px;
      line-height: 21px;
-     color: #000
+     color: #000;
+     
+        
+ }
+
+ .react-photo-gallery--gallery{
+    transition: 10s all;
  }
  
+
+ .react-photo-gallery--gallery:hover{
+    transform: rotateY(360deg);
+   
+ }
+  
  .about__skills-text {
      min-width: 300px;
      font-weight: 500;
