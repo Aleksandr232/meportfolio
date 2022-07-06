@@ -27,7 +27,7 @@ export default (props) => {
           <li class="menu__link">
             <Link to="/app"> <AdbOutlinedIcon/>- ПРИЛОЖЕНИЯ</Link>
           </li>
-          <a href="https://github.com/Aleksandr232/resume"  className="resume_pdf">
+          <Link to='/pdf_resume' className="resume_pdf">
             <button class="res_btn">
               <svg
                 class="svg"
@@ -52,7 +52,7 @@ export default (props) => {
               </svg>
               Resume
             </button>
-          </a>
+          </Link>
         </ul>
         <div className="whatsaap_telegram_github">
           <a href="https://t.me/aleksmelniks">

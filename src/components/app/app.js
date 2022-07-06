@@ -15,6 +15,7 @@ import Resume from '../me/resume/resume';
 import Frameworks from '../me/frameworks/frameworks';
 import Meportfolio from '../me/meportfolio/meportfolio';
 import Androidapp from '../me/androidapp';
+import PdfResume from '../me/pdf_resume/pdf_resume';
 
 
 
@@ -35,6 +36,7 @@ export default class App extends Component{
           <Route path="/frameworks" element={<Frameworks/>}></Route>
           <Route path="/meportfolio" element={<Meportfolio/>}></Route>
           <Route path="/app" element={<Androidapp/>}></Route>
+          <Route path="/pdf_resume" element={<PdfResume/>}></Route>
         </Routes>
       </div>
     </Router>
