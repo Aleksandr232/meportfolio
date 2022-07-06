@@ -1,11 +1,6 @@
-.resumefon{
-    margin: 0 auto;
-   background: rgb(35, 106, 132);
-   width: 700px;
-   height: 700px;
-    
- }
-
-.img_pdfresume{
-    width: 300px;
+@media(min-width:1440px){
+    .pdfr{
+        position: absolute;
+        left: 500px;
+    }
 }

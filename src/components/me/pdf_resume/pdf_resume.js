@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
-import file from './resume.pdf'
+import { Document, Page, pdfjs } from 'react-pdf';
+import file from './resume.pdf';
+import './pdf_resume.css'
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 
 
 function PdfResume() {
@@ -15,15 +19,14 @@ function PdfResume() {
 
  
   return (
-    <div>
+    <div className='pdfr'>
       <Document 
-      file={file} 
+      file={file}
       onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={1} />
+        <Page pageNumber={2} />
       </Document>
-      <p>
-      Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
-      </p>
+      
     </div>
   );
 }
