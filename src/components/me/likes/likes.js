@@ -1,13 +1,15 @@
 import {connect} from 'react-redux'
 import { incrementLikes, decrementLikes } from '../../redux/action';
 
+import './btc.scss';
+
 
 function Likes(props){
     console.log(props);
     return(
         <div className="button-controls">
-            <button onClick={props.onIncrementLikes}>❤{props.likes}</button>
-            <button onClick={props.onDecrementLikes}>Dislike</button>
+            <button id='btc' className='btn btn-info ms-2' onClick={props.onIncrementLikes}>👍🏻{props.likes}</button>
+            <button id='btc' className=' btn btn-info ms-2' onClick={props.onDecrementLikes}>👎🏻</button>
         </div>
     )
 }
