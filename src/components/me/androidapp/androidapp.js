@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import AdbOutlinedIcon from '@mui/icons-material/AdbOutlined';
+import Likes from "../likes/likes";
 
 import androidw from './androidw.jpg'
 import appandr from './appandr.jpg'
@@ -29,7 +30,9 @@ export default class Meportfolio extends Component{
                         <img src={animalicon} width="248px" height="248px"  alt=""/></div>
             <div className="workelem"><a href="https://github.com/Aleksandr232/clacapp"><button className='wor_1'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
                     <a  href='https://disk.yandex.ru/d/QnpKyXw5b922tQ'><button  className='wor'><img src="https://img.icons8.com/ios-glyphs/452/download--v2.gif" style={{width:'30px' }}/></button></a>
-                        <img src={calc} width="248px" height="248px"  alt=""/></div>
+                        <img src={calc} width="248px" height="248px"  alt=""/>
+                        <Likes/>
+                        </div>
             </div>
         </div>
     </section>
