@@ -27,7 +27,7 @@ export default class App extends Component{
     render(){
         return(
             <Router>
-      <div >
+      <div>
         <div><Menu/></div>
         <Routes>
           <Route exact path="/" element={<Header/>}></Route>
