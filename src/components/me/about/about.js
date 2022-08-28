@@ -5,6 +5,7 @@ import rowing from './rowing.jpeg';
 import row from './row.jpeg'; */
 import Music from '../music/music';
 import Photo from '../../photo/Photo';
+import EasterBraker from '../../break/break';
  
 export default class About extends Component{
     render(){
@@ -29,6 +30,7 @@ export default class About extends Component{
                          Гребля это не только красивый вид спорта, но и очень командный  спорт. Вы просто представьте, когда 9 человек гребут в одной лодке к своей мечте! Завораживающе! Не правда ли?
 
                     </div>
+                    <EasterBraker/>
                 </div>
 <div id="skil" className="about__skills">
                     <div className="about__item">
