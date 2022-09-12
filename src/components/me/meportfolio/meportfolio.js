@@ -14,7 +14,7 @@ import vue from './vue.png'
 import game from './game.png'
 import reacttest from './react-test2.png'
 import sport_libry from './sport_libry.png'
-import test_fin from './test_fin.png'
+import test from './test_fin.png'
 
 
 import './meportfolio.css';
@@ -75,7 +75,7 @@ export default class Meportfolio extends Component{
                     <a href="https://sport-diary.vercel.app/"><img src={sport_libry}
                                 width="248px" height="248px" alt=""/></a></div>
                 <div className="workelem"><a href="https://github.com/Aleksandr232/test_fin"><button className='workm'><img src="https://img.icons8.com/ios/50/000000/github--v2.gif" style={{width:'30px' }}/></button></a>
-                    <a href="https://test-fin.vercel.app/"><img src={test_fin}
+                    <a href="https://test-fin.vercel.app/"><img src={test}
                                 width="248px" height="248px" alt=""/></a></div>
             </div>
         </div>
